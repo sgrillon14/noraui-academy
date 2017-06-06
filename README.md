@@ -42,10 +42,15 @@ Tutorial for use NoraUi
     (15/16) Would you like to enable internationalization support? No
     
     (16/16) Besides JUnit and Karma, which testing frameworks would you like to use? (Press <space> to select, <a> to toggle all, <i> to inverse selection)
+    
+        Edit JHipsterSampleApp\src\main\resources\config\application-dev.yml file with your port (9797 for example)
+        
+            server:
+                port: 9797
         
         copy/paste JHipsterSampleApp\.jhipster\Customer.json
     
-        $ jhipster --force
+        $ jhipster entity customer --regenerate
 
 # NoraUi Tutorial
 
