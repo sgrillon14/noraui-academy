@@ -5,43 +5,47 @@ Tutorial for use NoraUi
 * installing Jhipster: https://jhipster.github.io/installation/
 * Creating an application:https://jhipster.github.io/creating-an-app/
 
-    $ mkdir JHipsterSampleApp
+        $ mkdir JHipsterSampleApp
     
-    $ cd JHipsterSampleApp/
+        $ cd JHipsterSampleApp/
     
-    $ jhipster
+        $ jhipster
     
-        What is the base name of your application? JHipsterSampleApp
+    (1/16) Which *type* of application would you like to create? Monolithic application (recommended for simple projects)
     
-        What is your default Java package name?
+    (2/16) What is the base name of your application? JHipsterSampleApp
     
-        Do you want to use the JHipster Registry to configure, monitor and scale your application?
+    (3/16) Would you like to install other generators from the JHipster Marketplace? No
     
-        Which type of authentication would you like to use?
+    (4/16) What is your default Java package name? com.mycompany.myapp
     
-        Which type of database would you like to use?
+    (5/16) Do you want to use the JHipster Registry to configure, monitor and scale your application? No
     
-        Which production database would you like to use?
+    (6/16) Which *type* of authentication would you like to use? JWT authentication (stateless, with a token)
     
-        Which development database would you like to use?
+    (7/16) Which *type* of database would you like to use? SQL (H2, MySQL, MariaDB, PostgreSQL, Oracle, MSSQL)
     
-        Do you want to use Hibernate 2nd level cache?
+    (8/16) Which *production* database would you like to use? PostgreSQL
     
-        Would you like to use Maven or Gradle?
+    (9/16) Which *development* database would you like to use? H2 with disk-based persistence
     
-        Which other technologies would you like to use?
+    (10/16) Do you want to use Hibernate 2nd level cache? No
     
-        Which Framework would you like to use for the client?
+    (11/16) Would you like to use Maven or Gradle for building the backend? Maven
     
-        Would you like to use the LibSass stylesheet preprocessor for your CSS?
+    (12/16) Which other technologies would you like to use? (Press <space> to select, <a> to toggle all, <i> to inverse selection)
     
-        Would you like to enable translation support with Angular Translate?
+    (13/16) Which *Framework* would you like to use for the client? AngularJS 1.x
     
-        Which testing frameworks would you like to use?
+    (14/16) Would you like to use the LibSass stylesheet preprocessor for your CSS? No
     
-    copy/paste JHipsterSampleApp\.jhipster\Customer.json
+    (15/16) Would you like to enable internationalization support? No
     
-    $ jhipster --force
+    (16/16) Besides JUnit and Karma, which testing frameworks would you like to use? (Press <space> to select, <a> to toggle all, <i> to inverse selection)
+        
+        copy/paste JHipsterSampleApp\.jhipster\Customer.json
+    
+        $ jhipster --force
 
 # NoraUi Tutorial
 
