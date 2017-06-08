@@ -33,7 +33,7 @@ Tutorial for use NoraUi
     
     (11/16) Would you like to use Maven or Gradle for building the backend? Maven
     
-    (12/16) Which other technologies would you like to use? (Press <space> to select, <a> to toggle all, <i> to inverse selection)
+    (12/16) Which other technologies would you like to use? Search engine using Elasticsearch
     
     (13/16) Which *Framework* would you like to use for the client? AngularJS 1.x
     
@@ -41,7 +41,7 @@ Tutorial for use NoraUi
     
     (15/16) Would you like to enable internationalization support? No
     
-    (16/16) Besides JUnit and Karma, which testing frameworks would you like to use? (Press <space> to select, <a> to toggle all, <i> to inverse selection)
+    (16/16) Besides JUnit and Karma, which testing frameworks would you like to use? Press <enter>
     
         Edit JHipsterSampleApp\src\main\resources\config\application-dev.yml file with your port (9797 for example)
         
