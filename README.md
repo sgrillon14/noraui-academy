@@ -54,6 +54,9 @@ Tutorial for use NoraUi
 
 # NoraUi Tutorial
 
+* use NoraUi archetype
+![create_robot_via_archetype](https://noraui.github.io/img/create_robot_via_archetype.gif)
+
 * run loginLogout scenario
 * create new scenario (create a customer without NoraUi Model)
 * create new scenario (create a customer with NoraUi Model)
