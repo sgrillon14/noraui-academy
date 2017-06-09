@@ -52,6 +52,10 @@ Tutorial for use NoraUi
     
         $ jhipster entity customer --regenerate
 
+# JHipster sample start
+
+* JHipsterSampleApp\mvnw.cmd
+
 # NoraUi Tutorial
 
 * use NoraUi archetype
