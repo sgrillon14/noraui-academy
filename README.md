@@ -65,3 +65,8 @@ Tutorial for use NoraUi
 * run loginLogout scenario
 * create new scenario (create a customer without NoraUi Model)
 * create new scenario (create a customer with NoraUi Model)
+
+# License
+
+[![license](https://img.shields.io/github/license/NoraUi/noraui-academy.svg)](https://github.com/NoraUi/noraui-academy/blob/master/LICENSE)
+BSD, See LICENSE for details
