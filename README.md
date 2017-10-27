@@ -68,5 +68,4 @@ Tutorial for use NoraUi
 
 # License
 
-[![license](https://img.shields.io/github/license/NoraUi/noraui-academy.svg)](https://github.com/NoraUi/noraui-academy/blob/master/LICENSE)
-BSD, See LICENSE for details
+[![license](https://img.shields.io/github/license/NoraUi/noraui-academy.svg)](https://github.com/NoraUi/noraui-academy/blob/master/LICENSE) See LICENSE for details
