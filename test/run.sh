@@ -1,10 +1,16 @@
-cd $(dirname $0)
-pwd
-ls -l
-cd ..
-pwd
-ls -l
+#!/usr/bin/env bash
 
+#
+# take countries-app-sample from Maven Central and Start Web Services (REST)
+wget -O countries-app-sample-0.0.1.jar 'https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&g=com.github.noraui&a=countries-app-sample&v=0.0.1-SNAPSHOT&p=jar'
+
+java -jar countries-app-sample-0.0.1.jar &
+PID=$!
+sleep 30
+
+
+cd $(dirname $0)
+cd ..
 mkdir generate_app
 cd generate_app
 echo "************************************************"
@@ -60,5 +66,10 @@ else
     echo "******** All counter is FAIL"
     exit 255
 fi
+
+#
+# kill countries-app-sample
+kill -9 $PID
+echo "******** countries-app-sample STOPED"
 
 exit 0
